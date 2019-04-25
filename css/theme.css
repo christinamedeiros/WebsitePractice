@@ -1,0 +1,103 @@
+body{
+  font-family: helvatica;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  background-color: #293137;
+}
+
+.white{
+  color:#fff;
+}
+
+.gray{
+  color:#515f67;
+}
+
+.gray2{
+  color:#8c9498;
+}
+
+#menu{
+  color:#fff;
+}
+
+#menu > li{
+  font-size:20px;
+}
+
+.header{
+  background-image: url('../images/boston.jpeg');
+  height:480px;
+  width:100%;
+}
+
+#header-title{
+  color:#fff;
+  font-size:40px;
+  text-transform: uppercase;
+  background-color: gray;
+}
+
+.call-to-action{
+  background-color: #e25b40;
+  width: 100%;
+  height: 200px;
+}
+
+#section-title{
+  font-size:30px;
+  font-weight:100;
+  text-transform: uppercase;
+}
+
+.Intro > p {
+  color:#fff;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.call-button{
+  color: #fff;
+  font-size: 30px;
+  text-transform:uppercase;
+  border: 5px solid #fff;
+  padding: 10px 30px;
+}
+
+.column{
+  float:left;
+  width:50%;
+}
+
+.column img{
+  margin:auto;
+  display: block;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.testimonials{
+  background-color: #ebebeb;
+}
+
+.testimonials p{
+  font-size:20px;
+}
+
+.map{
+  /* color: #fff; */
+  background-image: url('../images/world-map.jpeg');
+  height: 500px;
+}
+
+
+#footer-menu > li{
+  font-size: 20px;
+  padding: 10px 20px;
+}
