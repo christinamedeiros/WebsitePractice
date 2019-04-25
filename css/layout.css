@@ -58,7 +58,7 @@ ul{
 
 #header-title{
   margin:auto;
-  width: 44%;
+  width: 37%;
 }
 
 #title-wrapper{
@@ -83,9 +83,8 @@ ul{
 }
 
 #footer-menu{
-    width 300px;
+    width: 100%;
     float:left;
-    padding-top: 40px;
     /* display:inline-block; */
 }
 
