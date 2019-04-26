@@ -5,6 +5,9 @@
     <title>Skillshare|Home</title>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/theme.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
   </head>
   <body>
 
@@ -34,7 +37,7 @@
           <p>You know you really want to click this button</p>
       </div>
       <div class="Intro" id="right">
-        <a href='/' class="call-button">Click Here</a>
+        <a href='#' class="call-button">Click Here</a>
       </div>
     </div>
   </section>
@@ -75,6 +78,13 @@
       </ul>
     </div>
   </footer>
+
+<script type="text/javascript">
+
+    $('#header-title').on("click", function(){
+      $('.call-to-action').slideToggle();
+    });
+</script>
 
   </body>
 </html>

@@ -31,6 +31,15 @@ a{
   font-size:20px;
 }
 
+#menu > li:hover{
+  color:#2b8bd2;
+  transition:0.3s all ease-in-out;
+  -webkit-transform:0.3s all ease-in-out;
+  -moz-transform:0.3s all ease-in-out;
+  -o-transform:0.3s all ease-in-out;
+
+}
+
 .header{
   background-image: url('../images/boston.jpeg');
   height:480px;
@@ -78,9 +87,31 @@ a{
 
 .column img{
   margin:auto;
+  opacity: 0.5;
   display: block;
   padding-top:25px;
   padding-bottom:25px;
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+  -moz-transform:scale(0.7);
+  -o-transform:scale(0.7);
+  /*transition will happen in 0.3 seconds, for EVERY property, we will add effect ease-in-ease-out, with 0 second delay */
+  transition:0.3s all ease-in-out 0s;
+  -webkit-transform:0.3s all ease-in-out 0s;
+  -moz-transform:0.3s all ease-in-out 0s;
+  -o-transform:0.3s all ease-in-out 0s;
+}
+
+.column img:hover{
+  opacity:1;
+  transform:scale(1);
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  transition:0.3s all ease-in-out 0s;
+  -webkit-transform:0.3s all ease-in-out 0s;
+  -moz-transform:0.3s all ease-in-out 0s;
+  -o-transform:0.3s all ease-in-out 0s;
 }
 
 .testimonials{
